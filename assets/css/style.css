@@ -42,6 +42,42 @@ body{
     background-size : cover;
 }
 
+.header-uper{
+  width : 100%;
+  height : 100%;
+  margin : auto;
+  background : black url(../img/background-upper.jpg) no-repeat 20% 100%;
+  background-attachment: fixed;
+  background-size : cover;
+}
+
+.header-pepper{
+  width : 100%;
+  height : 100%;
+  margin : auto;
+  background : black url(../img/background-pepper.png) no-repeat 20% 100%;
+  background-attachment: fixed;
+  background-size : cover;
+}
+
+.header-nahowi{
+  width : 100%;
+  height : 100%;
+  margin : auto;
+  background : black url(../img/background-nahowi.jpg) no-repeat 20% 100%;
+  background-attachment: fixed;
+  background-size : cover;
+}
+
+.header-bain{
+  width : 100%;
+  height : 100%;
+  margin : auto;
+  background : black url(../img/background-bain.jpg) no-repeat 20% 100%;
+  background-attachment: fixed;
+  background-size : cover;
+}
+
 .subtitle{
     text-align: center;
     font-size: 20px;
@@ -331,6 +367,192 @@ body{
     flex-basis: 50%;
 }
 
-.iframe{
-    margin-bottom: 10rem;
+
+
+/********* PORTFOLIO *********/
+
+.port-right, .port-left{
+  flex-basis: 48.5%;
+}
+
+.port-uper, .port-bain, .port-nahowi, .port-pepper{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background-color: #00060c;
+  margin-bottom: 3rem;
+}
+
+.port-uper:hover, .port-bain:hover, .port-nahowi:hover, .port-pepper:hover{
+  transform: scale(1.05);
+}
+
+
+.title-other-section{
+  padding: 7.5rem 0 0 0;
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  font-size: 50px;
+}
+
+.port-bain{
+  background-color: #2a3283 !important;
+}
+
+.port-nahowi{
+  background-color: #4772ffee;
+}
+
+.port-pepper{
+  background-color: #dc0d13 !important;
+}
+
+.more-other{
+  text-align: center;
+  color: white;
+  padding-bottom: 8rem;
+  display: block;
+  margin-top: 4rem;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.more-other:hover{
+  text-decoration: underline;
+}
+
+.logo-port{
+  display: block;
+  margin: auto auto;
+  padding-top: 5rem;
+}
+
+/******** UPERNOIR ********/
+
+.screen-uper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-left {
+  flex-basis: 60%;
+  margin: 3rem 0;
+}
+
+.img-right{
+  flex-basis: 30%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-left: 5rem;
+}
+
+.img-bain{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 45%;
+  margin: 5rem auto;
+}
+
+.page-port{
+  width: 600px;
+  height: auto;
+}
+
+.css-port{
+  width: 300px;
+  height: auto;
+}
+
+.responsive-uper{
+  display: block;
+  margin: 3rem auto;
+}
+
+.bain-img{
+  width: 400px;
+  height: auto;
+}
+
+.info-img{
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contact-bain{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-contact, .right-contact{
+  flex-basis: 25%;
+}
+
+/****** NAHOWI *******/
+
+.nahowi-section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-nahowi{
+  flex-basis: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-nahowi{
+  flex-basis: 30%;
+  margin: 0 auto;
+}
+
+.maquettes{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.maquette-left, .maquette-right{
+  flex-basis: 50%;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-maquette{
+  width: 500px;
+  height: auto;
+}
+
+.yoga{
+  display: block;
+  margin: 0rem auto 0 auto;
+  width: 900px;
+  height: auto;
+}
+
+.equipe{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10rem;
+}
+
+.left-img{
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-team{
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }

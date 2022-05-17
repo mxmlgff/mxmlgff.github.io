@@ -556,3 +556,9 @@ body{
   display: block;
   margin: 0 auto;
 }
+
+.nom-team{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: -2rem;
+}
